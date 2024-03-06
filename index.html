@@ -36,7 +36,39 @@
 
   <hr class="solid">
 
+  <div class="cart-highlight">3</div>
+
   <div class="container">
+
+    <div class="cart-checkout">
+      <div class="cart-title">Cart</div>
+      <hr class="solid-cart">
+      <div class="cart-summary">
+        <div class="cart-image"> <img src="./images/image-product-1-thumbnail.jpg" alt="" srcset=""> </div>
+        
+        <div class="cart-title-price-total">
+          <div class="cart-product-title">Fall Limited Edition Sneakers</div>
+          
+          <div class="cart-price-total">
+            <div class="price">$125.00</div>
+            <div class="divider">x</div>
+            <div class="quantity">3</div>
+            <div class="cart-total">$375.00</div>
+          </div>
+
+        </div>
+
+        <div class="clear-cart"> <img src="./images/icon-delete.svg" alt="" srcset=""> </div>
+    
+      </div>
+
+      <button class="cart-checkout-button">Checkout</button>
+
+      <div class="empty-cart">
+        <div>Your cart is empty.</div>
+      </div>
+
+    </div>
 
     <div class="product-image-container">
 
@@ -46,10 +78,26 @@
       </div>
 
       <div class="image-thumbnails">
-        <img src="./images/image-product-1-thumbnail.jpg" alt="">
-        <img src="./images/image-product-2-thumbnail.jpg" alt="">
-        <img src="./images/image-product-3-thumbnail.jpg" alt="">
-        <img src="./images/image-product-4-thumbnail.jpg" alt="">
+        <img class="active-thumbnail image-thumbnail-1" src="./images/image-product-1-thumbnail.jpg" alt="1">
+        <img class="image-thumbnail-2" src="./images/image-product-2-thumbnail.jpg" alt="2">
+        <img class="image-thumbnail-3" src="./images/image-product-3-thumbnail.jpg" alt="3">
+        <img class="image-thumbnail-4" src="./images/image-product-4-thumbnail.jpg" alt="4">
+      </div>
+
+      <div class="modal-overlay">
+        <div class="modal-container">
+          <button class="modal-close-button"> <img src="./images/icon-close.svg" alt="" srcset=""> </button>
+          <div class="modal-main-image">
+            <button class="modal-prev-icon"> <img src="./images/icon-previous.svg" alt="" srcset=""> </button>
+            <button class="modal-next-icon"> <img src="./images/icon-next.svg" alt="" srcset=""> </button>
+          </div>
+          <div class="modal-image-thumbnails">
+            <img class="modal-active-thumbnail modal-thumbnail-1" src="./images/image-product-1-thumbnail.jpg" alt="1">
+            <img class="modal-thumbnail-2" src="./images/image-product-2-thumbnail.jpg" alt="2">
+            <img class="modal-thumbnail-3" src="./images/image-product-3-thumbnail.jpg" alt="3">
+            <img class="modal-thumbnail-4" src="./images/image-product-4-thumbnail.jpg" alt="4">
+          </div>
+        </div>
       </div>
 
     </div>
